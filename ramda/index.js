@@ -28,3 +28,7 @@ log('the original band', band)
 const makeLower = a => a.toLowerCase()
 
 log(R.over(name, makeLower)(band))
+log('compose view', R.compose(R.view(name), R.over(name, makeLower))(band))
+
+const currentMember = R.lensPath(['members', 'current'])
+log('view path', R.view(currentMember, band))
