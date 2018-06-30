@@ -1,29 +1,9 @@
 {
-  "name": "lib",
+  "name": "ramda",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "nodemon index.js -q -x babel-node",
-    "test:watch": "npm run test -- --watch",
-    "test": "mocha"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  },
-  "keywords": [
-    "lib"
-  ],
-  "author": "nfwyst",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
-    "chai": "^4.1.2",
-    "eyes": "^0.1.8",
-    "mocha": "^5.2.0",
     "ramda": "^0.25.0"
   }
 }
