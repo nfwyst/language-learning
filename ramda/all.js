@@ -18,5 +18,5 @@ console.log(
   R.all(R.allPass([
     R.lte(R.__, 20),
     R.gte(R.__, 10)
-  ]))([11, 12, 13])
+  ])([11, 12, 13])
 )
