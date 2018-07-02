@@ -9,3 +9,6 @@ functional allow store all state in stack, so we dont need to care the state cha
 
 # ramda
 functional javascript lib
+
+# typescript 
+just import type system to javascript like flow and more features
